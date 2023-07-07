@@ -155,7 +155,7 @@ if __name__ == "__main__":
 
     fuzzer.vm1 = VMRunnerProcess(
         [
-            "./go-ethereum-clone/core/vm",
+            "./offchainlabs-go-ethereum/core/vm",
             "--json",
             "--sender",
             "0x00",
@@ -169,7 +169,7 @@ if __name__ == "__main__":
 
     fuzzer.vm2 = VMRunnerProcess(
         [
-            "./offchainlabs-go-ethereum/core/vm",
+            "./go-ethereum-clone/core/vm",
             "--json",
             "--sender",
             "0x00",

@@ -13,3 +13,6 @@
 [submodule "go-ethereum"]
 	path = go-ethereum
 	url = https://github.com/ethereum/go-ethereum
+[submodule "go-ethereum-clone"]
+	path = go-ethereum-clone
+	url = https://github.com/kajaaz/go-ethereum.git
